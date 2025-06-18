@@ -1,0 +1,60 @@
+/* makes the menu background black */
+div.scrollmenu {
+  background-color: #6787d8;
+  overflow: auto;
+  white-space: nowrap;
+}
+
+
+/* makes the link text white and centred */
+div.scrollmenu a {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+}
+
+
+/* makes the link background change to grey when mouse over */
+div.scrollmenu a:hover {
+  background-color: #777;
+}
+
+
+*{font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+img{
+    width: 100%;
+}
+
+.hero-image{
+    background-image: url();
+    height: 352px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hero-text{
+    color: whitesmoke;
+    position: absolute;
+    text-align: center;
+    top: 280px;
+    width: 100%;
+    font-size: 4rem;
+}
+
+.two-column{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    gap: 5px;
+    width: 80%;
+    margin: auto;
+    margin-top: 40px;
+}
+
+.info{
+    font-size: 1.25em;
+}
