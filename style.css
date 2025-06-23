@@ -1,6 +1,6 @@
 /* makes the menu background black */
 div.scrollmenu {
-  background-color: #6787d8;
+  background-color: #7875ff;
   overflow: auto;
   white-space: nowrap;
 }
@@ -27,11 +27,13 @@ div.scrollmenu a:hover {
 
 img{
     width: 100%;
+    height:fit-content;
+    position: center;
 }
 
 .hero-image{
-    background-image: url();
-    height: 352px;
+    background-image: url("Whare Pictures/image (11) edited 2.png");
+    height: 500px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -41,7 +43,7 @@ img{
     color: whitesmoke;
     position: absolute;
     text-align: center;
-    top: 280px;
+    top: 420px;
     width: 100%;
     font-size: 4rem;
 }
@@ -49,10 +51,10 @@ img{
 .two-column{
     display: grid;
     grid-template-columns: 1fr 3fr;
-    gap: 5px;
+    grid-row-start: 5px;
     width: 80%;
     margin: auto;
-    margin-top: 40px;
+    margin-top: 50px;
 }
 
 .info{
