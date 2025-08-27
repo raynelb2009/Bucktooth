@@ -1,6 +1,6 @@
 /* makes the menu background black */
 div.scrollmenu {
-  background-color: #7875ff;
+  background-color: #0000ff;
   overflow: auto;
   white-space: nowrap;
 }
@@ -8,7 +8,7 @@ div.scrollmenu {
 /* makes the link text white and centred */
 div.scrollmenu a {
   display: inline-block;
-  color: white;
+  color: #ffffff;
   text-align: center;
   padding: 14px;
   text-decoration: none;
